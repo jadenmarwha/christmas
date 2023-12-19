@@ -1,0 +1,47 @@
+body {
+  font-family: "Holiday", sans-serif; 
+  background-color: #ae2e1c;
+  color: #f5eaea;
+}
+
+h1, h2 {
+  text-align: center;  
+  text-shadow: 2px 2px #f48363;
+}
+
+iframe {
+  display: block;
+  margin: 50px auto;
+  border: 8px solid #f5eaea;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+} 
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 50%;
+  border: 6px solid #145e14;
+}
+
+button {
+  background-color: #f48363; 
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);  
+}
+
+button:hover {
+  background-color: #f5eaea;
+  color: #ae2e1c; 
+}
+
+ul {
+  padding-left: 50px;
+  font-size: 18px;
+  list-style: square outside url('santa-icon.png');
+}
